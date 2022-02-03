@@ -10,7 +10,7 @@
     "start": "http-server dist --port 8080",
     "test": "jest --config jest.integration.config.js",
     "test:watch": "jest --config jest.integration.config.js --watchAll",
-    "test:report": "npx nyc report --reporter=html"
+    "test:report": "npx nyc report --nycrc-path nyc.config.js"
   },
   "dependencies": {
     "axios": "^0.21.4",
