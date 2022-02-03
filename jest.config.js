@@ -8,7 +8,7 @@ module.exports = {
     'src/views/**.{vue}',
     '!**/node_modules/**'
   ],
-  coverageDirectory: 'tests/unit/coverage',
+  coverageDirectory: 'coverage',
   coverageReporters: [
     'lcov',
     'text',
