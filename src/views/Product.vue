@@ -14,6 +14,8 @@
   </div>
 </template>
 
+<script src="./js/product.js"></script>
+
 <style scoped lang="scss">
 // layout
 .product-wrapper {
@@ -43,5 +45,3 @@
   }
 }
 </style>
-
-<script src="./js/product.js"></script>
