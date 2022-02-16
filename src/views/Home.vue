@@ -3,7 +3,8 @@
     Hello {{name}}
     <br/>
     How are you doing
-    <div v-html="name"></div>
+    <div v-html="name"></div>?
+    <br/>
     <ProductList msg="Products List Title" param="ok"/>
   </div>
 </template>
