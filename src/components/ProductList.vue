@@ -21,7 +21,7 @@
           <span>Rp.100.000</span>
         </div>
       </div>
-      
+
     </div>
   </div>
 </template>
@@ -50,7 +50,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-@import '../assets/_variables.scss';
+@import '../assets/variables';
 
 h3 {
   margin: 40px 0 0;
@@ -74,7 +74,7 @@ a {
   padding: 1em;
   width: 100%;
   flex-wrap: wrap;
-  
+
   a {
     color: $blue;
     text-decoration: none;

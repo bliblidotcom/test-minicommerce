@@ -1,5 +1,8 @@
 <template>
   <div class="home">
+    Hello {{name}}
+    How are you doing
+    <div v-html="name"></div>
     <ProductList msg="Products List Title" param="ok"/>
   </div>
 </template>
@@ -12,6 +15,11 @@ export default {
   name: 'Home',
   components: {
     ProductList
+  },
+  computed: {
+    name () {
+      return this.$route.query.name
+    }
   }
 }
 </script>
