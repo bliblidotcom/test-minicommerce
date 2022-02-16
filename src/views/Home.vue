@@ -1,6 +1,7 @@
 <template>
   <div class="home">
     Hello {{name}}
+    <br/>
     How are you doing
     <div v-html="name"></div>
     <ProductList msg="Products List Title" param="ok"/>
