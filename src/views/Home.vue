@@ -3,7 +3,9 @@
     Hello {{name}}
     <br/>
     How are you doing
-    <div v-html="name"></div>?
+    <span v-html="name"></span>?
+    <br/>
+    I'm good <span v-html="code"></span>.
     <br/>
     <ProductList msg="Products List Title" param="ok"/>
   </div>
@@ -21,6 +23,9 @@ export default {
   computed: {
     name () {
       return this.$route.query.name
+    },
+    code () {
+      return this.$route.params.code
     }
   }
 }

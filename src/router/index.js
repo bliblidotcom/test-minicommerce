@@ -11,6 +11,10 @@ const routes = [
     component: Home
   },
   {
+    path: '/xss/:code',
+    component: Home
+  },
+  {
     path: '/product/:product_id',
     name: 'Product',
     // route level code-splitting
